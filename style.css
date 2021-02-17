@@ -11,60 +11,51 @@ body{
 
     }
     
-    header{
-        box-sizing: border-box;
-        background-color:white; 
-        color:black;
-        font-family: 'Bodoni Moda', serif;
-        height:100px;
-        font-size:40px;
-        padding-left:30px;
-        text-decoration: underline black;   
-    }
+    
 
     #top{
         box-sizing: border-box;
         padding-left:80px;
-        margin-top:-60px;
+        margin-top:-40px;
+        background-color:white;
         
     }
 
     #table{
         box-sizing: border-box;
-        background-color: white;
         font-family: 'Bodoni Moda', serif;
-        margin-top:30px;
+        margin-top:70px;
         margin-left:25%;
-        border: solid 4px black;
+        border: solid 2px black;
         width: 50%;
         padding-bottom:10px;
         padding-top:10px;
-       
+        background: rgba(255, 253, 254, 0.5);
     }
 
     #tableTwo{
         box-sizing: border-box;
-        background-color: white;
         font-family: 'Bodoni Moda', serif;
-        margin-top:30px;
-        margin-left:25%;
-        border: solid 4px black;
-        width: 50%;
+        margin-top:70px;
+        margin-left:35%;
+        border: solid 2px black;
+        width: 30%;
         padding-bottom:10px;
         padding-top:10px;
-      
+        background: rgba(255, 253, 254, 0.5);
+        
         
     }
     #tableThree{
         box-sizing: border-box;
-        background-color: white;
         font-family: 'Bodoni Moda', serif;
-        margin-top:30px;
+        margin-top:70px;
         margin-left:25%;
-        border: solid 4px black;
+        border: solid 2px black;
         width: 50%;
         padding-bottom:10px;
         padding-top:10px;
+        background: rgba(255, 253, 254, 0.5);
       
     }
     .aboutMe{
@@ -94,10 +85,11 @@ body{
     .btn{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
+        background-color: white;
         color:black;
         border: solid 2px black;
         padding-left:10%;
-        margin-top:0%;
+        margin-top:-10px;
         height:50%;
         font-size:14px;
     
@@ -112,6 +104,65 @@ body{
    t{
     font-weight:bold;
     font: outline;
-    text-decoration: underline;
+    font-family: 'Bodoni Moda', serif;
     font-size:20px;
    }
+   *{
+	padding: 0;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+.toptitle{
+   
+	font-family: 'Bodoni Moda', serif;
+	font-size: 55px;
+	background: white;
+}
+span{
+	margin-top:-30px;
+	line-height: .7;
+	/* text-shadow: 0 0 2px rgba(0, 0, 0, .45); */
+	animation: span 3s ease-in infinite alternate;
+}
+.main{
+	display: flex;
+	justify-content: center;
+    align-items: flex-start;
+    font-family: 'Bodoni Moda', serif;
+	font-size: 42px;
+}
+.letter{
+    font-family: 'Bodoni Moda', serif;
+	font-size: 42px;
+	display: inline-flex;
+	height: 30px;
+	width: 27px;
+	/* border: 2.5px solid #FF1EAD; */
+	border: 2.35px solid black;
+	border-radius: 14px;
+	/* box-shadow:
+		0 0 2px rgba(0, 0, 0, .75),
+		inset 0 0 2px rgba(0, 0, 0, .45); */
+
+	animation: letter 3s ease-in-out infinite alternate;
+}
+@keyframes span {
+	0%,30%{ margin: 0 15px; }
+	70%,100%{ margin: 0 5px; }
+}
+ @keyframes letter {
+	0%,30%{ width: 27px; }
+	70%,100%{ width: 30vw; } 
+}  
+
+.divided {
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border-bottom: 1px solid black; 
+    margin: 5px
+  }
