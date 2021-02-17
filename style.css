@@ -28,7 +28,7 @@ body{
         margin-left:25%;
         border: solid 2px black;
         width: 50%;
-        padding-bottom:10px;
+        /* padding-bottom:10px; */
         padding-top:10px;
         background: rgba(255, 253, 254, 0.5);
     }
