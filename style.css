@@ -24,11 +24,13 @@ body{
     #table{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
-        margin-top:70px;
+        margin-top:50px;
         margin-left:25%;
         border: solid 2px black;
         width: 50%;
-        /* padding-bottom:10px; */
+        padding-left:10px;
+        padding-right:10px;
+         padding-bottom:10px; 
         padding-top:10px;
         background: rgba(255, 253, 254, 0.5);
     }
@@ -36,12 +38,15 @@ body{
     #tableTwo{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
-        margin-top:70px;
+        margin-top:50px;
         margin-left:35%;
         border: solid 2px black;
         width: 30%;
         padding-bottom:10px;
         padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:10px; 
         background: rgba(255, 253, 254, 0.5);
         
         
@@ -49,12 +54,16 @@ body{
     #tableThree{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
-        margin-top:70px;
+        margin-top:50px;
         margin-left:25%;
         border: solid 2px black;
         width: 50%;
-        padding-bottom:10px;
+        height:700px;
+        overflow: scroll;
+        padding-bottom:40px;
         padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
         background: rgba(255, 253, 254, 0.5);
       
     }
@@ -169,3 +178,20 @@ span{
 
   .zoom:hover {
     transform: scale(1.2);}
+
+k{
+    margin-left:70px;
+}
+
+e{
+    margin-left:30px;
+}
+
+
+r{
+    margin-left:20px;
+}
+
+o{
+    margin-left:150px;
+}
