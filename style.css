@@ -14,10 +14,18 @@ body{
     
 
     #top{
+      
         box-sizing: border-box;
-        padding-left:2%;
         margin-top:-40px;
         background-color:white;
+    
+        display:block;
+        position:relative;
+        margin-top: -50px;
+       
+        text-align: left;
+        height: auto;
+        width:100%;
         
     }
 
@@ -25,11 +33,13 @@ body{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
         margin-top:50px;
-        margin-left:25%;
+        margin-left:auto;
+        margin-right:auto;
         border: solid 2px black;
-        width: 50%;
-        padding-left:2%;
-        padding-right:2%;
+        height: auto;
+        width:60%;
+        padding-left:10px;
+        padding-right:10px;
          padding-bottom:2%; 
         padding-top:2%;
         background: rgba(255, 253, 254, 0.5);
@@ -39,9 +49,11 @@ body{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
         margin-top:50px;
-        margin-left:35%;
+        margin-left:auto;
+        margin-right:auto;
         border: solid 2px black;
-        width: 30%;
+        width: 40%;
+        height:auto;
         padding-bottom:2%;
         padding-top:2%;
         padding-left:2%;
@@ -55,10 +67,11 @@ body{
         box-sizing: border-box;
         font-family: 'Bodoni Moda', serif;
         margin-top:50px;
-        margin-left:25%;
+        margin-left:auto;
+        margin-right:auto;
         border: solid 2px black;
-        width: 50%;
-        height:700px;
+        width: 60%;
+        height:auto;
         overflow: scroll;
         padding-bottom:2%;
         padding-top:2%;
@@ -126,12 +139,13 @@ body{
 .toptitle{
    
 	font-family: 'Bodoni Moda', serif;
-	font-size: 55px;
+	font-size: 22px;
 	background: white;
 }
 span{
+    
 	margin-top:-30px;
-	line-height: .07%;
+	line-height: .07;
 	/* text-shadow: 0 0 2px rgba(0, 0, 0, .45); */
 	animation: span 3s ease-in infinite alternate;
 }
@@ -140,11 +154,11 @@ span{
 	justify-content: center;
     align-items: flex-start;
     font-family: 'Bodoni Moda', serif;
-	font-size: 42px;
+	font-size: 22px;
 }
 .letter{
     font-family: 'Bodoni Moda', serif;
-	font-size: 42px;
+	font-size: 22px;
 	display: inline-flex;
 	height: 10%;
 	width: 20%;
@@ -161,7 +175,7 @@ span{
 }
  @keyframes letter {
 	0%,30%{ width: 27px; }
-	50%,100%{ width: 30vw; } 
+	50%,100%{ width:30vw; } 
 }  
 
 .divided {
@@ -194,3 +208,13 @@ r{
 o{
     margin-left:100px;
 }
+
+.headShot{
+   
+   padding-left:30px;
+}
+
+header {
+    letter-spacing: 12px;
+    font-size:42px;
+  }
