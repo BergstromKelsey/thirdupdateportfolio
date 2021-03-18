@@ -25,7 +25,7 @@ body{
         position:auto;
        padding-left:40px;
         text-align: left;
-        height: 50%;
+        height: ;
         width:auto;
         
     }
@@ -123,10 +123,12 @@ body{
         color:black;
         border: solid 2px black;
         padding-left:auto;
-        margin-top:-10px;
+        margin-bottom:8px;
+        margin-top:-8px;
         height:50%;
         font-size:14px;
         width:100px;
+       
         
     
     }
@@ -224,12 +226,12 @@ o{
 
 .headShot{
    
-   padding-left:30px;
+   padding-left:40px;
 }
 
 header {
     font-family: 'Bodoni Moda', serif;
-    padding-left:8px;
+ 
     letter-spacing: 12px;
     font-size:42px;
   }
