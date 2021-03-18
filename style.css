@@ -15,7 +15,7 @@ body{
 
     #top{
         box-sizing: border-box;
-        padding-left:80px;
+        padding-left:2%;
         margin-top:-40px;
         background-color:white;
         
@@ -28,10 +28,10 @@ body{
         margin-left:25%;
         border: solid 2px black;
         width: 50%;
-        padding-left:10px;
-        padding-right:10px;
-         padding-bottom:10px; 
-        padding-top:10px;
+        padding-left:2%;
+        padding-right:2%;
+         padding-bottom:2%; 
+        padding-top:2%;
         background: rgba(255, 253, 254, 0.5);
     }
 
@@ -42,11 +42,11 @@ body{
         margin-left:35%;
         border: solid 2px black;
         width: 30%;
-        padding-bottom:10px;
-        padding-top:10px;
-        padding-left:10px;
-        padding-right:10px;
-        padding-bottom:10px; 
+        padding-bottom:2%;
+        padding-top:2%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-bottom:2%; 
         background: rgba(255, 253, 254, 0.5);
         
         
@@ -60,16 +60,17 @@ body{
         width: 50%;
         height:700px;
         overflow: scroll;
-        padding-bottom:40px;
-        padding-top:10px;
-        padding-left:10px;
-        padding-right:10px;
+        padding-bottom:2%;
+        padding-top:2%;
+        padding-left:2%;
+        padding-right:2%;
+        padding-bottom:2%; 
         background: rgba(255, 253, 254, 0.5);
       
     }
     .aboutMe{
         box-sizing: border-box;
-        padding-left:30px; 
+        padding-left:10%; 
         width: 100%;
         /* float: left; */
     }
@@ -130,7 +131,7 @@ body{
 }
 span{
 	margin-top:-30px;
-	line-height: .7;
+	line-height: .07%;
 	/* text-shadow: 0 0 2px rgba(0, 0, 0, .45); */
 	animation: span 3s ease-in infinite alternate;
 }
@@ -145,24 +146,22 @@ span{
     font-family: 'Bodoni Moda', serif;
 	font-size: 42px;
 	display: inline-flex;
-	height: 30px;
-	width: 27px;
-	/* border: 2.5px solid #FF1EAD; */
+	height: 10%;
+	width: 20%;
+
 	border: 2.35px solid black;
 	border-radius: 14px;
-	/* box-shadow:
-		0 0 2px rgba(0, 0, 0, .75),
-		inset 0 0 2px rgba(0, 0, 0, .45); */
+
 
 	animation: letter 3s ease-in-out infinite alternate;
 }
 @keyframes span {
 	0%,30%{ margin: 0 15px; }
-	70%,100%{ margin: 0 5px; }
+	50%,100%{ margin: 0 5px; }
 }
  @keyframes letter {
 	0%,30%{ width: 27px; }
-	70%,100%{ width: 30vw; } 
+	50%,100%{ width: 30vw; } 
 }  
 
 .divided {
@@ -180,7 +179,7 @@ span{
     transform: scale(1.2);}
 
 k{
-    margin-left:70px;
+    margin-left:50px;
 }
 
 e{
@@ -193,5 +192,5 @@ r{
 }
 
 o{
-    margin-left:150px;
+    margin-left:100px;
 }
